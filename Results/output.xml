@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Rebot 5.0.1 (Python 3.8.0 on win32)" generated="20221015 00:08:26.042" rpa="false" schemaversion="3">
+<suite id="s1" name="Parall" source="C:\Users\GorantlL\PycharmProjects\DemoSeleniumRobot\Parall">
+<suite id="s1-s1" name="TC 1" source="C:\Users\GorantlL\PycharmProjects\DemoSeleniumRobot\Parall\TC_1.robot">
+<kw name="Log To Console" library="BuiltIn" type="SETUP">
+<arg>Opening brower</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221015 00:08:16.750" endtime="20221015 00:08:16.750"/>
+</kw>
+<test id="s1-s1-t1" name="TC01" line="10">
+<kw name="Log To Console" library="BuiltIn" type="SETUP">
+<arg>LoginPage</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221015 00:08:16.752" endtime="20221015 00:08:16.752"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>TC01 Test Case Execute</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221015 00:08:16.752" endtime="20221015 00:08:16.753"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn" type="TEARDOWN">
+<arg>LogoutPage</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221015 00:08:16.753" endtime="20221015 00:08:16.754"/>
+</kw>
+<status status="PASS" starttime="20221015 00:08:16.751" endtime="20221015 00:08:16.754"/>
+</test>
+<test id="s1-s1-t2" name="TC02" line="13">
+<kw name="Log To Console" library="BuiltIn" type="SETUP">
+<arg>LoginPage</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221015 00:08:16.756" endtime="20221015 00:08:16.756"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>TC02 Test Case Execute</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221015 00:08:16.756" endtime="20221015 00:08:16.757"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn" type="TEARDOWN">
+<arg>LogoutPage</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221015 00:08:16.757" endtime="20221015 00:08:16.758"/>
+</kw>
+<status status="PASS" starttime="20221015 00:08:16.755" endtime="20221015 00:08:16.758"/>
+</test>
+<test id="s1-s1-t3" name="TC03" line="16">
+<kw name="Log To Console" library="BuiltIn" type="SETUP">
+<arg>LoginPage</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221015 00:08:16.760" endtime="20221015 00:08:16.760"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>TC03 Test Case Execute</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221015 00:08:16.760" endtime="20221015 00:08:16.761"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn" type="TEARDOWN">
+<arg>LogoutPage</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221015 00:08:16.761" endtime="20221015 00:08:16.762"/>
+</kw>
+<status status="PASS" starttime="20221015 00:08:16.759" endtime="20221015 00:08:16.762"/>
+</test>
+<kw name="Log To Console" library="BuiltIn" type="TEARDOWN">
+<arg>closing brower</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221015 00:08:16.763" endtime="20221015 00:08:16.763"/>
+</kw>
+<status status="PASS" starttime="20221015 00:08:16.746" endtime="20221015 00:08:16.763"/>
+</suite>
+<suite id="s1-s2" name="TC 2" source="C:\Users\GorantlL\PycharmProjects\DemoSeleniumRobot\Parall\TC_2.robot">
+<test id="s1-s2-t1" name="TC01Test" line="10">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>${url}</arg>
+<arg>${browserName}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20221015 00:08:17.192" level="INFO">Opening browser 'headlesschrome' to base url 'https://www.google.com/'.</msg>
+<status status="PASS" starttime="20221015 00:08:17.191" endtime="20221015 00:08:21.279"/>
+</kw>
+<kw name="Sleep" library="BuiltIn">
+<arg>2</arg>
+<doc>Pauses the test executed for the given time.</doc>
+<msg timestamp="20221015 00:08:23.294" level="INFO">Slept 2 seconds</msg>
+<status status="PASS" starttime="20221015 00:08:21.280" endtime="20221015 00:08:23.294"/>
+</kw>
+<kw name="Close Browser" library="SeleniumLibrary">
+<doc>Closes the current browser.</doc>
+<status status="PASS" starttime="20221015 00:08:23.294" endtime="20221015 00:08:25.555"/>
+</kw>
+<status status="PASS" starttime="20221015 00:08:17.189" endtime="20221015 00:08:25.555"/>
+</test>
+<status status="PASS" starttime="20221015 00:08:16.711" endtime="20221015 00:08:25.556"/>
+</suite>
+<doc>[https://pabot.org/?ref=log|Pabot] result from 2 executions.</doc>
+<status status="PASS" starttime="20221015 00:08:16.675" endtime="20221015 00:08:25.558"/>
+</suite>
+<statistics>
+<total>
+<stat pass="4" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="4" fail="0" skip="0" id="s1" name="Parall">Parall</stat>
+<stat pass="3" fail="0" skip="0" id="s1-s1" name="TC 1">Parall.TC 1</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s2" name="TC 2">Parall.TC 2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

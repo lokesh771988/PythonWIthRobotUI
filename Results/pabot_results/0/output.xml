@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.8.0 on win32)" generated="20221015 00:08:16.683" rpa="false" schemaversion="3">
+<suite id="s1" name="Parall" source="C:\Users\GorantlL\PycharmProjects\DemoSeleniumRobot\Parall">
+<suite id="s1-s1" name="TC 1" source="C:\Users\GorantlL\PycharmProjects\DemoSeleniumRobot\Parall\TC_1.robot">
+<kw name="Log To Console" library="BuiltIn" type="SETUP">
+<arg>Opening brower</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221015 00:08:16.750" endtime="20221015 00:08:16.750"/>
+</kw>
+<test id="s1-s1-t1" name="TC01" line="10">
+<kw name="Log To Console" library="BuiltIn" type="SETUP">
+<arg>LoginPage</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221015 00:08:16.752" endtime="20221015 00:08:16.752"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>TC01 Test Case Execute</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221015 00:08:16.752" endtime="20221015 00:08:16.753"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn" type="TEARDOWN">
+<arg>LogoutPage</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221015 00:08:16.753" endtime="20221015 00:08:16.754"/>
+</kw>
+<status status="PASS" starttime="20221015 00:08:16.751" endtime="20221015 00:08:16.754"/>
+</test>
+<test id="s1-s1-t2" name="TC02" line="13">
+<kw name="Log To Console" library="BuiltIn" type="SETUP">
+<arg>LoginPage</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221015 00:08:16.756" endtime="20221015 00:08:16.756"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>TC02 Test Case Execute</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221015 00:08:16.756" endtime="20221015 00:08:16.757"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn" type="TEARDOWN">
+<arg>LogoutPage</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221015 00:08:16.757" endtime="20221015 00:08:16.758"/>
+</kw>
+<status status="PASS" starttime="20221015 00:08:16.755" endtime="20221015 00:08:16.758"/>
+</test>
+<test id="s1-s1-t3" name="TC03" line="16">
+<kw name="Log To Console" library="BuiltIn" type="SETUP">
+<arg>LoginPage</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221015 00:08:16.760" endtime="20221015 00:08:16.760"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn">
+<arg>TC03 Test Case Execute</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221015 00:08:16.760" endtime="20221015 00:08:16.761"/>
+</kw>
+<kw name="Log To Console" library="BuiltIn" type="TEARDOWN">
+<arg>LogoutPage</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221015 00:08:16.761" endtime="20221015 00:08:16.762"/>
+</kw>
+<status status="PASS" starttime="20221015 00:08:16.759" endtime="20221015 00:08:16.762"/>
+</test>
+<kw name="Log To Console" library="BuiltIn" type="TEARDOWN">
+<arg>closing brower</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" starttime="20221015 00:08:16.763" endtime="20221015 00:08:16.763"/>
+</kw>
+<status status="PASS" starttime="20221015 00:08:16.746" endtime="20221015 00:08:16.763"/>
+</suite>
+<status status="PASS" starttime="20221015 00:08:16.706" endtime="20221015 00:08:16.765"/>
+</suite>
+<statistics>
+<total>
+<stat pass="3" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="3" fail="0" skip="0" id="s1" name="Parall">Parall</stat>
+<stat pass="3" fail="0" skip="0" id="s1-s1" name="TC 1">Parall.TC 1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,6 @@
+datasources:c3afd4919038d56a6d28e8c1dd796b21770ce974
+commandlineoptions:97d170e1550eee4afc0af065b78cda302a97674c
+suitesfrom:no-suites-from-option
+file:5c1292a1ddd5133050109b1dcff0387ca8856fd1
+--suite Parall.TC 1
+--suite Parall.TC 2
